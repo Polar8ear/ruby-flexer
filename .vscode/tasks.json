@@ -1,0 +1,25 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Jflex",
+      "type": "shell",
+      "command": "jflex src/jflex/${fileBasename} -d src/main",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": [
+        "Remove old java generated file"
+      ]
+    },
+    {
+      "label": "Remove old java generated file",
+      "type": "shell",
+      "command": "rm -f src/main/RubyLexer.java",
+    }
+  ]
+}
