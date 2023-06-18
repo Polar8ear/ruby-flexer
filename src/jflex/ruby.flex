@@ -209,6 +209,8 @@ StringCharacter = [^\r\n\"\\]
                                      return new Token(TokenType.LITERAL, yyString);
                                  }
 
+  // character such as \n \t
+  \\.                            |
   {StringCharacter}+             { yyString += yytext(); }
 
   /* escape sequences */
@@ -222,6 +224,8 @@ StringCharacter = [^\r\n\"\\]
                                      return new Token(TokenType.LITERAL, yyString);
                                  }
 
+  // character such as \n \t
+  \\.                            |
   {StringCharacter}+             { yyString += yytext(); }
 
   /* escape sequences */
