@@ -1,0 +1,33 @@
+<Token: KEYWORD; def>
+<Token: IDENTIFIER; factorial>
+<Token: OPERATOR; (>
+<Token: IDENTIFIER; n>
+<Token: OPERATOR; )>
+<Token: KEYWORD; if>
+<Token: IDENTIFIER; n>
+<Token: OPERATOR; <=>
+<Token: NUMBER; 1>
+<Token: NUMBER; 1>
+<Token: KEYWORD; else>
+<Token: IDENTIFIER; n>
+<Token: OPERATOR; *>
+<Token: IDENTIFIER; factorial>
+<Token: OPERATOR; (>
+<Token: IDENTIFIER; n>
+<Token: OPERATOR; ->
+<Token: NUMBER; 1>
+<Token: OPERATOR; )>
+<Token: KEYWORD; end>
+<Token: KEYWORD; end>
+<Token: IDENTIFIER; number>
+<Token: OPERATOR; =>
+<Token: NUMBER; 5>
+<Token: IDENTIFIER; result>
+<Token: OPERATOR; =>
+<Token: IDENTIFIER; factorial>
+<Token: OPERATOR; (>
+<Token: IDENTIFIER; number>
+<Token: OPERATOR; )>
+<Token: IDENTIFIER; puts>
+<Token: LITERAL; The factorial of #{number} is #{result}.>
+<Token: END_OF_FILE>

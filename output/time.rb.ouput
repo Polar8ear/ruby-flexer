@@ -1,0 +1,28 @@
+<Token: IDENTIFIER; $i>
+<Token: OPERATOR; =>
+<Token: NUMBER; 0>
+<Token: IDENTIFIER; $num>
+<Token: OPERATOR; =>
+<Token: NUMBER; 0>
+<Token: IDENTIFIER; time1>
+<Token: OPERATOR; =>
+<Token: IDENTIFIER; Time>
+<Token: OPERATOR; .>
+<Token: IDENTIFIER; new>
+<Token: KEYWORD; while>
+<Token: IDENTIFIER; $i>
+<Token: OPERATOR; <>
+<Token: IDENTIFIER; $num>
+<Token: KEYWORD; do>
+<Token: IDENTIFIER; puts>
+<Token: OPERATOR; (>
+<Token: LITERAL; Inside the loop i = #i>
+<Token: OPERATOR; )>
+<Token: KEYWORD; end>
+<Token: IDENTIFIER; puts>
+<Token: LITERAL; Current Time : >
+<Token: OPERATOR; +>
+<Token: IDENTIFIER; time1>
+<Token: OPERATOR; .>
+<Token: IDENTIFIER; inspect>
+<Token: END_OF_FILE>

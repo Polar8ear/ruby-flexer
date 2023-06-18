@@ -1,0 +1,44 @@
+<Token: KEYWORD; class>
+<Token: IDENTIFIER; Person>
+<Token: IDENTIFIER; attr_accessor>
+<Token: OPERATOR; :>
+<Token: IDENTIFIER; name>
+<Token: OPERATOR; ,>
+<Token: OPERATOR; :>
+<Token: IDENTIFIER; age>
+<Token: KEYWORD; def>
+<Token: IDENTIFIER; initialize>
+<Token: OPERATOR; (>
+<Token: IDENTIFIER; name>
+<Token: OPERATOR; ,>
+<Token: IDENTIFIER; age>
+<Token: OPERATOR; )>
+<Token: OPERATOR; @>
+<Token: IDENTIFIER; name>
+<Token: OPERATOR; =>
+<Token: IDENTIFIER; name>
+<Token: OPERATOR; @>
+<Token: IDENTIFIER; age>
+<Token: OPERATOR; =>
+<Token: IDENTIFIER; age>
+<Token: KEYWORD; end>
+<Token: KEYWORD; def>
+<Token: IDENTIFIER; greet>
+<Token: IDENTIFIER; puts>
+<Token: LITERAL; Hello, my name is #{@name} and I am #{@age} years old.>
+<Token: KEYWORD; end>
+<Token: KEYWORD; end>
+<Token: IDENTIFIER; person>
+<Token: OPERATOR; =>
+<Token: IDENTIFIER; Person>
+<Token: OPERATOR; .>
+<Token: IDENTIFIER; new>
+<Token: OPERATOR; (>
+<Token: LITERAL; John Doe>
+<Token: OPERATOR; ,>
+<Token: NUMBER; 25>
+<Token: OPERATOR; )>
+<Token: IDENTIFIER; person>
+<Token: OPERATOR; .>
+<Token: IDENTIFIER; greet>
+<Token: END_OF_FILE>
