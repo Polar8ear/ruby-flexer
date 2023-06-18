@@ -8,8 +8,9 @@ end
 
 =begin
 Everything between a line beginning with `=begin' down to
-one beginning with `=end' will be skipped by the interpreter.
-These reserved words must begin in column 1.
+one beginning with `=end' will be skipped by the interpreter
+as they are embedded documentation. These reserved words
+must begin in column 1.
 =end
 
 number = 5
